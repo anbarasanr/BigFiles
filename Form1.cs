@@ -167,7 +167,7 @@ namespace BigFiles1
                 {
                     try
                     {
-                        File.Delete(row.Cells["Location"].Value.ToString());
+                        File.Delete(row.Cells["FilePath"].Value.ToString());
                         dataGridView1.Rows.RemoveAt(row.Index);
                         dataGridView1.Refresh();
                     }
